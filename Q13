@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void) {
+    float celsius;
+    printf("Qual valor em celsius para converter? ");
+    scanf("%f", &celsius);
+    printf("O valor da temperatura em fahrenheit vale: %.1f\n", (9 * celsius + 160) / 5);
+    return 0;
+}
