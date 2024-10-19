@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+    int x;
+    printf("Insira um número: ");
+    scanf("%d", &x);
+    printf("O valor absoluto de %d número vale: %d", x, abs(x));
+    return 0;
+}
