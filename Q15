@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+    float salario_bruto, inss, valorPorHora, salarioLiquido;
+    int horas;
+    printf("Insira o valor do salario bruto do professor: ");
+    scanf("%f", &salario_bruto);
+    printf("Insira o valor do inss a ser pago pelo professor: ");
+    scanf("%f", &inss);
+    printf("Quanto o professor ganha por hora?: ");
+    scanf("%f", &valorPorHora);
+    printf("Por quantas horas ele trabalhou no mês: ");
+    scanf("%d", &horas);
+    salarioLiquido = (horas * valorPorHora) - inss;
+    printf("O salário líquido do professor vale: %.2f\n", salarioLiquido);
+    return 0;
+}
