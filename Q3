@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+    int x;
+    printf("Insira o valor de x: ");
+    scanf("%d", &x);
+    printf("O triplo de x vale: %d\n", x*3);
+    printf("O quadrado de x vale: %d\n", x*x);
+    printf("O meio de x vale: %f", x*0.5\n);
+
+    return 0;
+}
