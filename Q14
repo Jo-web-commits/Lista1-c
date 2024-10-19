@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+float valor(int dias) {
+    if (dias <= 10) {
+        return (50.25 * dias) - (50.25 * dias) * 0.1;
+    }
+    else if (dias > 10 && dias <=20) {
+        return ((50.25 * dias) + (50.25 * dias) * 0.2) - (50.25 * dias) * 0.1;
+    }
+    else if (dias > 20) {
+        return ((50.25 * dias) + (50.25 * dias) * 0.3) - (50.25 * dias) * 0.1;
+    }
+}
+
+int main(void) {
+    int dias;
+    printf("O trabalhador trabalhou por quantos dias?");
+    scanf("%d", &dias);
+    printf("O valor total receber é: %f\n", valor(dias));
+    return 0;
+}
