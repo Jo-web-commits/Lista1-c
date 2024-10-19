@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+float converter(float cotacao, float reais) {
+    return reais / cotacao;
+}
+
+int main(void) {
+    float cotacao, reais;
+    printf("Insira o valor da cotação do dólar: ");
+    scanf("%f", &cotacao);
+    printf("Insira a quantidade de reais que será convertida: ");
+    scanf("%f", &reais);
+    printf("O valor convertido em dolar é: %2.f\n", converter(cotacao, reais));
+
+    return 0;
+}
