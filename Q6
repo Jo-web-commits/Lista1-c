@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+    float horas, minutos, segundos;
+    printf("Insira o total de horas: ");
+    scanf("%f", &horas);
+    printf("Insira o total de minutos: ");
+    scanf("%f", &minutos);
+    printf("Insira o total de segundos: ");
+    scanf("%f", &segundos);
+    printf("O total de segundos calculados foi: %f\n", (horas * 3600) + (minutos * 60) + segundos);
+    return 0;
+}
