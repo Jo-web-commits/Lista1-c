@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+    int a, b;
+    printf("Insira os valores dos dois numeros: ");
+    scanf("%d %d", a, b);
+    printf("A soma dos dois valores é: %d\n", a+b);
+    prinft("O produto entre os dois é: %d\n", a * b);
+    prinft("A diferença entre os dois valores é: %d\n", a-b);
+    prinft("O quociente entre os dois é: %d\n", a / b);
+    prinft("O resto da divisão entre os dois números é: %d\n", a % b);
+
+    return 0;
+}
