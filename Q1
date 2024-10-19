@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+    int num;
+    printf("Insira um valor: ");
+    scanf("%d", &num);
+    printf("O valor em hexadecimal é: %X\n", num);
+    printf("O valor em hexadecimal é: %o", num);
+
+    return 0;
+}
