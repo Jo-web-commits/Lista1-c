@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+
+int main(void) {
+    float comprimento, largura, altura;
+    printf("Insira os valores do comprimento, largura e altura do retângulo respectivamente: ");
+    scanf("%f %f %f", &comprimento, &largura, &altura);
+    printf("O valor do volume do retângulo vale: %f\n", comprimento*largura*altura);
+    return 0;
+}
