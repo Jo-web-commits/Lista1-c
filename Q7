@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+    double num;
+    printf("Insira o valor do número: ");
+    scanf("%lf", &num);
+    printf("O quadrado do número vale: %lf\n", pow(num, 2));
+
+    return 0;
+}
