@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-void troca(int x, int y) {
-    int c;
-    c = x;
-    x = y;
-    y = c;
+void troca(int *x, int *y) {
+    int temp = *x;
+    *x = *y;
+    *y = temp;
 }
 
 
@@ -12,7 +11,7 @@ int main(void) {
     int a, b;
     printf("Insira os valores de a e b: ");
     scanf("%d %d", &a, &b);
-    troca(b, a);
+    troca(&a, &b);
     printf("Os valores trocados são: %d e %d\n", a, b);
     return 0;
 }
