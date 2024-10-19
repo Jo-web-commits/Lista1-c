@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+    float num;
+    printf("Insira um valor de ponto flutuante: ");
+    scanf("%f", &num);
+    printf("O número com apenas uma casa decimal é: %.1f\n", num);
+
+    return 0;
+}
