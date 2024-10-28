@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+    int segundos;
+    printf("Insira a quantidade de segundos: ");
+    scanf("%d", &segundos);
+
+    float minutos = (float) segundos / 60;
+    float horas = (float) segundos / 3600;
+    printf("A quantidade de minutos é: %.2f\n", minutos);
+    printf("A quantidade de horas é: %.2f", horas);
+
+    return 0;
+}
