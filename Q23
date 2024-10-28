@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+    int x, n;
+    printf("Insira o valor de x: ");
+    scanf("%d", &x);
+    printf("Insira o valor de n: ");
+    scanf("%d", &n);
+
+    printf("O resultado é: %d", x * (1 << n));
+    return 0;
+}
