@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+    int x, y;
+    puts("Insira o primeiro valor: ");
+    scanf("%d", &x);
+    puts("Insira o segundo valor: ");
+    scanf("%d", &y);
+
+    (x % y == 0) ? printf("Os valores são múltiplos") : printf("Os valores não são múltiplos");
+    return 0;
+}
