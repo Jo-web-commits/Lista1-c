@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+    float n1, n2, n3;
+    printf("Insira três valores: ");
+    scanf("%f %f %f", &n1, &n2, &n3);
+
+    float media = cbrt(n1 * n2 * n3);
+    printf("A média geométrica vale: %.2f\n", media);
+
+    return 0;
+}
